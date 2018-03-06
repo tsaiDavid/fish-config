@@ -2,7 +2,18 @@ alias ea 'vim ~/.config/fish/aliases.fish'
 alias ef 'vim ~/.config/fish/config.fish'
 alias ev 'vim ~/.vimrc'
 
-
+# iTermocil
+function showme
+  for option in $argv
+    switch "$option"
+      case -s --syapse
+        command itermocil sy_main
+      case \*
+        printf "Error: Unknown option %s\n" $option
+        printf "Consider trying -s [--syapse]"
+    end
+  end
+end
 
 # Git aliases inspired by `oh-my-zsh`
 function _current_branch
