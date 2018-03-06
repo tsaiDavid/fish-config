@@ -1,1 +1,1 @@
-/Users/dtsai/.local/share/omf/themes/agnoster/fish_prompt.fish
+/Users/dtsai/.local/share/omf/themes/pure/fish_prompt.fish

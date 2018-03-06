@@ -26,5 +26,6 @@ function postactivate --on-event virtualenv_did_activate
 end
 
 # Do I still need this?
-set PROJECT_HOME $HOME/work
+# set PROJECT_HOME $HOME/work
 set WORKON_HOME $HOME/work
+set VIRTUALFISH_HOME $HOME/work
